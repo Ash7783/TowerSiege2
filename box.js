@@ -7,7 +7,6 @@ class Box {
         }
         this.visibility = 255;
         this.body = Bodies.rectangle(x, y, 50, 50, options);
-        this.color=color(random(0,255))
         World.add(world, this.body);
     }
     display() {
